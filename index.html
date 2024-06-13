@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1 {
+            color: #000;
+        }
+        .a{
+            color: orange;
+        }
+        #1{
+            color: red;
+        } */
+        body{
+            margin: 0;
+        }
+        .header1{
+            display: flex;
+        }
+        
+        .header1 h1 {
+            margin: 0%;
+            padding: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+    
+
+        .header1 nav a {
+            
+            text-decoration: none;
+            padding: 1em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .header1 {
+            background-color: rgb(151, 134, 134);
+            text-align: center;
+            /* display: inline; */
+        }
+
+        .header1 h1 {
+            margin: 0%;
+            padding: 10px;
+            text-decoration:double;
+            color:rgb(38, 14, 54);
+        }
+
+        .header1 nav a {
+            
+            text-decoration: none;
+            padding: 1em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        html, body, .footer,.sec1, .sec2, .sec3{
+            width: 100%;
+            height: 100%; 
+        }
+
+        .sec1{
+            background-image: url(./images/photo-1497250681960-ef046c08a56e.avif);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+        .sec1 img{
+            margin-top: 10%;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+        .herounit{
+            background-image: url(./images/photo-1488645411773-a3b09ea07e29.avif);
+            background-size:cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            filter: blur(0%);
+            /* background-attachment: fixed; */
+
+        }
+        .herounit-mask{
+            height: 100vh;
+            background-color: rgba(123, 121, 322, 0.1);
+        }
+        .herounit-mask h2{
+            margin: -30px;
+            color: rgb(125, 76, 123);
+        }
+        .herounit-mask a{
+    
+            margin: 60vh;
+            
+        }
+        .herounit h2{
+            margin: 0%;
+            padding: 60vh;
+
+        }
+        
+        .herounit a{
+            margin: 0%;
+            padding: 60vh;
+
+        }
+        
+        .sec2{
+            background-image: url(./images/pexels-photo-381739.jpeg);
+            background-size:cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        .sec2 h2{
+            margin: 0%;
+            padding: 1em;
+            color: aquamarine;
+        }
+        .sec2 img{
+            height: 250px;
+            width: 300px;
+            margin: 1%;
+            filter: blur(5px);
+
+        }
+        .sec2 img:hover{
+            filter: blur(0px);
+            /* transform: rotate(45deg); */
+            transition-duration: 2s ;
+            transform: scale(1.1);
+        }
+        .sec3{
+            background-image: url(./images/pexels-pixabay-36762.jpg);
+            background-size: cover;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            /* parrallexeffect */
+           
+        }
+        .sec3 h2{
+            color: beige;
+            
+
+        }
+        .paper-flex{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .paper{
+            background-color: lightblue;
+            height: 200px;
+            width: 300px;
+            text-align: center;
+            border-radius: 5%;
+            /* padding: 1em; */
+            box-shadow: 1em;
+
+        }
+        .paper img{
+            height: 130px;
+            width: 200px;
+        }
+        .footer{
+            background-image: url(./images/istockphoto-506316644-170667a.webp);
+            background-size: cover;
+            
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <h1 class="a" id="3">Hello</h1>
+    <h1 class="b" id="1">Hello</h1>
+    <h1 class="a" id="2">Hello</h1> -->
+
+
+    <header class="header1">
+        <h1>Plant Life Discovery</h1>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">AboutUs</a>
+            <a href="">ContactUS</a>
+            <a href="">Product</a>
+        </nav>
+
+    </header>
+
+    <section class="sec1"> 
+        <img src="images/eco-logo-with-abstract-tree_1025-318.jpg" alt="">
+        <p>Nature is Us</p>
+
+    </section>
+    <section class="herounit">
+        <div class="herounit-mask">
+            <h2> !!Grow Garden in your Home </h2>
+            <a href="know more"></a>
+
+        </div>
+        
+
+    </section>
+    <section class="sec2"> 
+        <h2>!!Samples Gallery</h2>
+        <img src="images/download (2).jpg" alt="">
+        <img src="images/download (3).jpg" alt="">
+    </section>
+    <section class="sec3"> 
+        <h2>!!! How to place an order for plants?</h2>
+        <section class="paper-flex">
+            <article class="paper">
+                <h3>Register</h3>
+                <img src="images/image.png" alt="">
+                <p> step1 register to our website</p>
+
+            </article>
+           
+            <article class="paper">
+                <h3>explore the sample</h3>
+                <img src="images/a.jpg" alt="">
+                <p>step2: choose required plants</p>
+
+            </article>
+            <article class="paper">
+                <h3>explore the sample</h3>
+                <img src="images/b.jpg" alt="">
+                <p>step3: add samples to cart</p>
+
+            </article>
+            <article class="paper">
+                <h3>make payment</h3>
+                <img src="images/c.jpg" alt="">
+                <p>step3: do payment</p>
+
+            </article>
+
+        </section>
+    </section>
+    <footer class="footer"> This is FOOTER</footer>
+    <button class="btn btn-primary">bootstrap</button>
+</body>
+
+
+</html>
